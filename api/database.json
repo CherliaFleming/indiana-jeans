@@ -4,6 +4,22 @@
       "id": 1,
       "ownsBlueJeans": false,
       "socioLocationId": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "ownsBlueJeans": true,
+      "socioLocationId": 2,
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "ownsBlueJeans": false,
+      "socioLocationId": 3,
+      "id": 5
     }
   ],
   "socioLocations": [
