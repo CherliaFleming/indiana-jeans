@@ -1,3 +1,13 @@
+import { setOwnsBlueJeans } from "./transientState.js"
+
+const handleOwnershipChange = (changeEvent) => {
+    if (changeEvent.target.name === "ownJeans") {
+        const convertedToBoolean = JSON.parse(changeEvent.target.value)
+        setOwnsBlueJeans(convertedToBoolean)
+    }
+}
+
+
 export const JeanChoices = () => {
     let html = `
         <div class="survey-input">
